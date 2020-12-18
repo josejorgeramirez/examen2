@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;700&display=swap');
+
+:root{
+	--fondo-footer:#30363d;
+	--fondo:#f5f5f5;
+	--contenido:#898989;
+	--color-negro;:#282d33; 
+}
+body{
+	font-size: Segoe UI;
+	font-size: 15px;
+	color: #777;
+}
+header{
+	position: relative;
+	background-color: #f9f9f9;
+	width: 100%;
+	top:0;
+}
+
+#hero{
+	padding: 40px;
+	background-color: var(--fondo);
+	background-image: url("../img/home-slide.jpg");
+	background-size: cover;
+	padding-bottom: 380px;
+}
+#hero h1{
+	color: var(--color-negro);
+	font-size: 70px;
+}
+#hero p{
+	font-size: 18px;
+	padding: 30px;
+	padding-bottom: 20px;
+	margin-left: -25px;
+}
+
+#CTA Products{
+	align-content: center;
+	background-image: url("../img/product-parallax.jpg");
+	background-size: cover;
+}
+
+#info producto{
+	padding-top: 60px;
+	align-content: center;
+	margin-right: 200px;
+}
+#info producto h6{
+	text-transform: uppercase;
+}
+footer{
+	background-color: #30363d;
+	padding: 30px;
+	color: #999;
+	text-align: center;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+#products{
+	text-align: center;
+	padding: 30px;
+}
+#products{
+	padding: 20px;
+	padding-top: 20px;
+}
+footer p{
+	margin-bottom: 0;
+}
+
